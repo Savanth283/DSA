@@ -1,4 +1,4 @@
-#Inser Operation in LinkedList
+#Operations in Linked List
 
 class Node:
   def __init__(self,dataval=None):
@@ -8,7 +8,8 @@ class Node:
 class Linkedlistp:
   def __init__(self):
     self.headval=None
-  
+    
+#Insert Operation in LinkedList  
   def atBegin(self,newdata): #adding a new node at the begin 
     NewNode = Node(newdata)
     NewNode.nextval = self.headval 
